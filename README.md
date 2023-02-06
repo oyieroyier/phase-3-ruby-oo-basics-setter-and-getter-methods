@@ -23,7 +23,6 @@ attribute will look like this:
 
 ```ruby
 class Person
-
   # setter method
   def name=(name)
     @name = name
@@ -33,7 +32,6 @@ class Person
   def name
     @name
   end
-
 end
 ```
 
@@ -50,7 +48,7 @@ code would look like this:
 
 ```ruby
 brennan = Person.new
-brennan.name=("Brennan")
+brennan.name = ("Brennan")
 ```
 
 Note that this is exactly the same as calling any method that takes an argument
